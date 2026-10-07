@@ -23,4 +23,11 @@ public class BookTest {
 
         assertEquals(1, set.size());
     }
+
+    @Test
+    void sameIsbnDifferentTitleAreEqual() {
+        Book a = new Book("123", "Effective Java", "Joshua Bloch");
+        Book b = new Book("123", "Effective Java, 3rd Edition", "Joshua Bloch");
+        assertEquals(a, b);
+    }
 }
