@@ -4,3 +4,5 @@
 /Users/akshavyaaggarwal/java-mastery/library-system/src/main/java/com/library/system/CopyStatus.java
 /Users/akshavyaaggarwal/java-mastery/library-system/src/main/java/com/library/system/Loan.java
 /Users/akshavyaaggarwal/java-mastery/library-system/src/main/java/com/library/system/Member.java
+/Users/akshavyaaggarwal/java-mastery/library-system/src/main/java/com/library/system/repository/BookRepository.java
+/Users/akshavyaaggarwal/java-mastery/library-system/src/main/java/com/library/system/repository/InMemoryBookRepository.java

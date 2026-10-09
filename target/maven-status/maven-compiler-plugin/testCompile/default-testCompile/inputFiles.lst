@@ -3,3 +3,4 @@
 /Users/akshavyaaggarwal/java-mastery/library-system/src/test/java/com/library/system/BookTest.java
 /Users/akshavyaaggarwal/java-mastery/library-system/src/test/java/com/library/system/LoanTest.java
 /Users/akshavyaaggarwal/java-mastery/library-system/src/test/java/com/library/system/MemberTest.java
+/Users/akshavyaaggarwal/java-mastery/library-system/src/test/java/com/library/system/repository/InMemoryBookRepositoryTest.java

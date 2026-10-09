@@ -1,6 +1,8 @@
-com/library/system/App.class
+com/library/system/repository/InMemoryBookRepository.class
 com/library/system/CopyStatus.class
 com/library/system/BookCopy.class
+com/library/system/Book.class
+com/library/system/repository/BookRepository.class
+com/library/system/App.class
 com/library/system/Loan.class
 com/library/system/Member.class
-com/library/system/Book.class

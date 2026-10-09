@@ -1,4 +1,5 @@
 com/library/system/BookTest.class
+com/library/system/repository/InMemoryBookRepositoryTest.class
 com/library/system/BookCopyTest.class
 com/library/system/MemberTest.class
 com/library/system/AppTest.class
