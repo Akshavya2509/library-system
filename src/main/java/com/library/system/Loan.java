@@ -10,7 +10,7 @@ public class Loan {
     private final LocalDate dueOn;
     private LocalDate returnDate;
 
-    public Loan (String loanId, BookCopy copy, Member member, LocalDate borrowedOn) {
+    public Loan(String loanId, BookCopy copy, Member member, LocalDate borrowedOn) {
         this.loanId = loanId;
         this.copy = copy;
         this.member = member;
@@ -42,10 +42,26 @@ public class Loan {
         return returnDate != null;
     }
 
-    public void markReturned (LocalDate returnDate) {
-        if(isReturned()) {
+    public void markReturned(LocalDate returnDate) {
+        if (isReturned()) {
             throw new IllegalStateException("Loan " + loanId + " has already been returned");
         }
         this.returnDate = returnDate;
+    }
+
+    @Override 
+    public boolean equals(Object o) {
+        return this == o || (o instanceof Loan other && loanId.equals(other.getLoanId()));
+    }
+
+    @Override 
+    public int hashCode() {
+        return loanId.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return "Loan[loanId=" + loanId + ", copy=" + copy.getCopyId()
+                + ", member=" + member.memberId() + ", dueDate=" + dueOn + "]";
     }
 }
