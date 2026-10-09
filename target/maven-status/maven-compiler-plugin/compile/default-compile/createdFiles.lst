@@ -1,4 +1,6 @@
 com/library/system/App.class
 com/library/system/CopyStatus.class
 com/library/system/BookCopy.class
+com/library/system/Loan.class
+com/library/system/Member.class
 com/library/system/Book.class

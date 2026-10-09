@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.library.system.BookCopyTest
+Test set: com.library.system.MemberTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s -- in com.library.system.BookCopyTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.library.system.MemberTest
